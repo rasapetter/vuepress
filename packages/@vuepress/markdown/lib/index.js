@@ -43,6 +43,7 @@ module.exports = ({
     .options
       .html(true)
       .highlight(highlight)
+      .linkify(true)
       .end()
 
     .plugin('component')
